@@ -1,6 +1,6 @@
-
 import { data } from "../data";
-import Flex from "./styled/Flex";
+// import Flex from "./styled/Flex";
+import { Flex2 } from "./styled/Flex";
 import Image from "./styled/Image";
 import Sarmal from "./styled/Sarmal";
 
@@ -11,13 +11,13 @@ const Card = () => {
         {data.map((item) => {
           const { id, body, image, title } = item;
           return (
-            <Flex key={id} className="card" >
+            <Flex2 key={id} className="card">
               <div>
                 <h2>{title}</h2>
                 <p>{body}</p>
               </div>
               <Image src={image} alt={title} />
-            </Flex>
+            </Flex2>
           );
         })}
       </Sarmal>

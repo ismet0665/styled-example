@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 const Sarmal = styled.div`
   /* flex-wrap: wrap; */
+
   & .card:nth-child(odd) {
     flex-direction: row;
   }

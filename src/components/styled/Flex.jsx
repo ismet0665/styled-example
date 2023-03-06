@@ -24,7 +24,9 @@ const Flex = styled.div`
 `;
 export default Flex;
 
-// export const Flex2 = styled(Flex)`
-//   flex-direction: column;
-//   text-align: center;
-// `;
+export const Flex2 = styled(Flex)`
+  /* flex-direction: column;
+  text-align: center; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  margin-bottom: 1rem;
+`;
